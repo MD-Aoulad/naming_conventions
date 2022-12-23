@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Set the font to "Helvetica Neue" and the font size to 16px */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+/* Set the background color to white and the text color to black */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Style the form and input elements */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+label,
+select,
+input[type="submit"] {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+}
+
+select {
+  width: 200px;
+  height: 40px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-image: url('arrow.svg');
+  background-position: right 20px top 50%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Style the output element */
+#output {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
